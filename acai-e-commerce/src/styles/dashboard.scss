@@ -7,6 +7,28 @@
     gap: 3em;
     justify-items: center;
 
+    .selectorContainer{
+        width: 80%;
+        display: flex;
+        padding-top: 2em;
+
+        select{
+        border-radius: 1em;
+        border: 2px solid #6c319c;
+        padding: 1em;
+        cursor: pointer;
+        color: #6c319c;
+
+            &:hover {
+                background-color: #f3e5f5; 
+            }
+        }
+
+        option{
+            border: 2px solid #6c319c;
+        }
+    }
+
     .chartsContainer{
 
         display: flex;
