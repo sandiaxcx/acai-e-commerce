@@ -4,3 +4,47 @@
 //     gap: 1em;
 //     width: 100%;
 // }
+
+@import '../App.scss';
+
+.dashboardContainer{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+    justify-items: center;
+    border: 2px solid orange;
+
+    .chartsContainer{
+
+        display: flex;
+        flex-direction: column;
+        gap: 3em;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+
+        .topContainer{
+            display: flex;
+            flex-direction: row;
+            gap: 1em;
+            width: 100%;
+        }
+
+        .midContainer{
+            display: flex;
+            flex-direction: row;
+            gap: 1em;
+            width: 100%;
+        }
+
+        .botContainer{
+            display: flex;
+            flex-direction: row;
+            gap: 1em;
+            width: 100%;
+        }
+    }
+}
