@@ -3,6 +3,7 @@ import Footer from "../components/layout/Footer";
 import { useState } from "react";
 import productData from "../data/products.json"
 import SalesChart from "../components/dashboard/SalesChart";
+import ConversionRateChart from "../components/dashboard/ConversionRateChart";
 
 const { products } = productData;
 
@@ -14,8 +15,10 @@ export default function Dashboard() {
         <section className="dashboardContainer">
             {selectedProduct && (
                 <section className="chartsContainer">
-                    <h1>Dashboard</h1>
-                    <SalesChart product={selectedProduct} />    
+                    <div className="midContainer">
+                        <SalesChart product={selectedProduct} />    
+                        <ConversionRateChart product={selectedProduct} />
+                    </div>
                 </section>
             )}
             <Footer />
