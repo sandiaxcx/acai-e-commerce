@@ -4,6 +4,7 @@ import { useState } from "react";
 import productData from "../data/products.json"
 import SalesChart from "../components/dashboard/SalesChart";
 import ConversionRateChart from "../components/dashboard/ConversionRateChart";
+import ReviewsChart from "../components/dashboard/ReviewsChart";
 
 const { products } = productData;
 
@@ -18,6 +19,7 @@ export default function Dashboard() {
                     <div className="midContainer">
                         <SalesChart product={selectedProduct} />    
                         <ConversionRateChart product={selectedProduct} />
+                        <ReviewsChart product={selectedProduct} />
                     </div>
                 </section>
             )}
