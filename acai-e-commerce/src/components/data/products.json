@@ -1,0 +1,354 @@
+{
+    "products": [
+        {
+                "id": 1,
+                "name": "iPhone Case",
+                "stock": 180,
+                "image1": "https://printify.com/dcb45202-fc53-4cae-a490-383a907627af",
+                "image2": "https://printify.com/d76cd454-5d20-4a1a-ad80-b1cc8ca87ba6",
+                "description": "Protect your phone in custom style with this tough phone case. This lightweight phone case is impact resistant thanks to its TPU lining and Polycarbonate shell. Meanwhile, the interior rubber liner adds an extra layer of protection to your phone for total peace of mind. Compatible with iPhone and Samsung smartphones. Check sizes for all available phone models.",
+                "comments": [
+                        {
+                                "id": 1,
+                                "text": "This case changed my life",
+                                "review": 4.5,
+                                "date": "2024-08"
+                        },
+                        {
+                                "id": 2,
+                                "text": "The phone case is not thick enough",
+                                "review": 2.5,
+                                "date": "2024-07"
+                        },
+                        {
+                                "id": 3,
+                                "text": "Doesn't fit my iPhone",
+                                "review": 3.0,
+                                "date": "2024-02"
+                        },
+                        {
+                                "id": 4,
+                                "text": "The case is nice",
+                                "review": 4.0,
+                                "date": "2024-01"
+                        },
+                        {
+                                "id": 5,
+                                "text": "This iPhone case looks great",
+                                "review": 5.0,
+                                "date": "2024-06"
+                        },
+                        {
+                                "id": 6,
+                                "text": "This case is so stylish",
+                                "review": 4.8,
+                                "date": "2024-09"
+                        },
+                        {
+                                "id": 7,
+                                "text": "The phone case is too slippery",
+                                "review": 2.2,
+                                "date": "2024-10"
+                        },
+                        {
+                                "id": 8,
+                                "text": "The case is too bulky",
+                                "review": 2.0,
+                                "date": "2024-11"
+                        }
+                ]
+        },
+        {
+                "id": 2,
+                "name": "Spiral Notebook",
+                "stock": 205,
+                "image": "https://via.placeholder.com/150",
+                "image2": "https://via.placeholder.com/150",
+                "description": "This spiral notebook is perfect for jotting down notes, doodles, and more. The durable cover and thick paper ensure that your notes will last. The spiral binding allows you to easily flip through the pages, while the perforated edges make it easy to tear out pages when needed. Available in a variety of colors and designs.",
+                "comments": [
+                        {
+                                "id": 1,
+                                "text": "I love this spiral notebook!",
+                                "review": 4.5,
+                                "date": "2024-03"
+                        },
+                        {
+                                "id": 2,
+                                "text": "The quality of this notebook is outstanding",
+                                "review": 4.8,
+                                "date": "2024-04"
+                        },
+                        {
+                                "id": 3,
+                                "text": "This notebook exceeded my expectations",
+                                "review": 4.2,
+                                "date": "2024-05"
+                        },
+                        {
+                                "id": 4,
+                                "text": "The design of this notebook is beautiful",
+                                "review": 4.6,
+                                "date": "2024-08"
+                        },
+                        {
+                                "id": 5,
+                                "text": "This notebook is perfect for taking notes",
+                                "review": 4.3,
+                                "date": "2024-09"
+                        },
+                        {
+                                "id": 6,
+                                "text": "I use this notebook for all my doodles",
+                                "review": 4.7,
+                                "date": "2024-10"
+                        },
+                        {
+                                "id": 7,
+                                "text": "The paper quality of this notebook is great",
+                                "review": 4.4,
+                                "date": "2024-11"
+                        },
+                        {
+                                "id": 8,
+                                "text": "I highly recommend this notebook",
+                                "review": 4.9,
+                                "date": "2024-12"
+                        }
+                ]
+        },
+        {
+                "id": 3,
+                "name": "Tote Bag",
+                "image": "https://via.placeholder.com/150",
+                "image2": "https://via.placeholder.com/150",
+                "stock": 86,
+                "description": "This tote bag is perfect for carrying all your essentials in style. The durable canvas material and reinforced stitching ensure that this bag will last for years to come. The spacious interior and multiple pockets make it easy to keep your belongings organized, while the comfortable shoulder straps make it easy to carry. Available in a variety of colors and designs.",
+                "comments": [
+                        {
+                                "id": 1,
+                                "text": "This tote bag is amazing",
+                                "review": 4.5,
+                                "date": "2024-01"
+                        },
+                        {
+                                "id": 2,
+                                "text": "I don't like this tote bag",
+                                "review": 2.5,
+                                "date": "2024-03"
+                        },
+                        {
+                                "id": 3,
+                                "text": "This tote bag is pretty good",
+                                "review": 4.0,
+                                "date": "2024-08"
+                        },
+                        {
+                                "id": 4,
+                                "text": "This tote bag is the best",
+                                "review": 5.0,
+                                "date": "2024-02"
+                        },
+                        {
+                                "id": 5,
+                                "text": "I love this tote bag",
+                                "review": 4.8,
+                                "date": "2024-09"
+                        },
+                        {
+                                "id": 6,
+                                "text": "This tote bag is perfect for everyday use",
+                                "review": 4.2,
+                                "date": "2024-06"
+                        },
+                        {
+                                "id": 7,
+                                "text": "I'm not satisfied with this tote bag",
+                                "review": 2.7,
+                                "date": "2024-07"
+                        },
+                        {
+                                "id": 8,
+                                "text": "This tote bag exceeded my expectations",
+                                "review": 4.5,
+                                "date": "2024-12"
+                        }
+                ]
+        },
+        {
+                "id": 4,
+                "name": "Tumbler 20 Oz",
+                "stock": 120,
+                "image": "https://via.placeholder.com/150",
+                "image2": "https://via.placeholder.com/150",
+                "description": "Stay hydrated on the go with this stylish tumbler. The durable stainless steel construction and leak-proof design make it perfect for taking with you wherever you go. The double-walled insulation keeps your drinks cold for up to 24 hours or hot for up to 12 hours, while the wide mouth design makes it easy to fill and clean. Available in a variety of colors and designs.",
+                "comments": [
+                        {
+                                "id": 1,
+                                "text": "This tumbler is perfect for my daily commute",
+                                "review": 4.7,
+                                "date": "2024-01"
+                        },
+                        {
+                                "id": 2,
+                                "text": "I'm not satisfied with the quality of this tumbler",
+                                "review": 2.3,
+                                "date": "2024-02"
+                        },
+                        {
+                                "id": 3,
+                                "text": "This tumbler keeps my drinks hot for hours",
+                                "review": 4.5,
+                                "date": "2024-03"
+                        },
+                        {
+                                "id": 4,
+                                "text": "The design of this tumbler is beautiful",
+                                "review": 4.8,
+                                "date": "2024-04"
+                        },
+                        {
+                                "id": 5,
+                                "text": "I love using this tumbler for my iced coffee",
+                                "review": 4.2,
+                                "date": "2024-05"
+                        },
+                        {
+                                "id": 6,
+                                "text": "This tumbler is worth every penny",
+                                "review": 4.9,
+                                "date": "2024-06"
+                        },
+                        {
+                                "id": 7,
+                                "text": "The lid of this tumbler is not leak-proof",
+                                "review": 2.5,
+                                "date": "2024-07"
+                        },
+                        {
+                                "id": 8,
+                                "text": "This tumbler is too bulky for my liking",
+                                "review": 3.7,
+                                "date": "2024-08"
+                        }
+                ]
+        },
+        {
+                "id": 5,
+                "name": "Mug 10 Oz",
+                "stock": 300,
+                "image": "https://via.placeholder.com/150",
+                "image2": "https://via.placeholder.com/150",
+                "description": "Start your day off right with this stylish mug. The durable ceramic construction and comfortable handle make it perfect for enjoying your favorite hot beverages. The large 10 oz capacity is perfect for your morning coffee or tea, while the vibrant design adds a touch of style to your morning routine. Available in a variety of colors and designs.",
+                "comments": [
+                        {
+                                "id": 1,
+                                "text": "This mug is soo pretty",
+                                "review": 5.0,
+                                "date": "2024-01"
+                        },
+                        {
+                                "id": 2,
+                                "text": "The mug came broken",
+                                "review": 0.2,
+                                "date": "2024-02"
+                        },
+                        {
+                                "id": 3,
+                                "text": "This mug is too small",
+                                "review": 3.2,
+                                "date": "2024-03"
+                        },
+                        {
+                                "id": 4,
+                                "text": "This mug is not bad",
+                                "review": 4.1,
+                                "date": "2024-04"
+                        },
+                        {
+                                "id": 5,
+                                "text": "I drink coffee every morning with this mug",
+                                "review": 5.0,
+                                "date": "2024-05"
+                        },
+                        {
+                                "id": 6,
+                                "text": "I love drinking tea with this mug",
+                                "review": 4.9,
+                                "date": "2024-06"
+                        },
+                        {
+                                "id": 7,
+                                "text": "I love drinking hot chocolate with this mug",
+                                "review": 4.8,
+                                "date": "2024-07"
+                        },
+                        {
+                                "id": 8,
+                                "text": "I love my new mug",
+                                "review": 4.7,
+                                "date": "2024-08"
+                        }
+                ]
+        },
+        {
+                "id": 6,
+                "name": "Unisex Hooded Sweatshirt",
+                "stock": 500,
+                "image": "https://example.com/path/to/hoodie.jpg",
+                "image2": "https://via.placeholder.com/150",
+                "description": "Stay warm and cozy in this stylish hoodie. The heavy blend fabric and double-lined hood make it perfect for chilly days, while the ribbed cuffs and waistband ensure a comfortable fit. The spacious front pocket is perfect for keeping your hands warm or storing your essentials. Available in a variety of colors and designs.",
+                "comments": [
+                        [
+                            {
+                                "id": 1,
+                                "text": "This is the best hoodie I've ever owned",
+                                "review": 5.0,
+                                "date": "2024-01"
+                            },
+                            {
+                                "id": 2,
+                                "text": "I got the hoodie yesterday and it's already falling apart",
+                                "review": 1.5,
+                                "date": "2024-02"
+                            },
+                            {
+                                "id": 3,
+                                "text": "The hoodie was too big",
+                                "review": 3.2,
+                                "date": "2024-03"
+                            },
+                            {
+                                "id": 4,
+                                "text": "Best hoodie ever",
+                                "review": 4.7,
+                                "date": "2024-04"
+                            },
+                            {
+                                "id": 5,
+                                "text": "The hoodie is so comfortable",
+                                "review": 5.0,
+                                "date": "2024-05"
+                            },
+                            {
+                                "id": 6,
+                                "text": "I've been using this hoodie for a while now",
+                                "review": 4.3,
+                                "date": "2024-06"
+                            },
+                            {
+                                "id": 7,
+                                "text": "This hoodie is too thin",
+                                "review": 3.8,
+                                "date": "2024-07"
+                            },
+                            {
+                                "id": 8,
+                                "text": "I wear it every day",
+                                "review": 4.9,
+                                "date": "2024-08"
+                            }
+                        ]
+                ]
+        }
+    ]
+}
