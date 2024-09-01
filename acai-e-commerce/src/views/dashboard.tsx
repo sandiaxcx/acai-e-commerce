@@ -14,6 +14,7 @@ export default function Dashboard() {
         <section className="dashboardContainer">
             {selectedProduct && (
                 <section className="chartsContainer">
+                    <h1>Dashboard</h1>
                     <SalesChart product={selectedProduct} />    
                 </section>
             )}
