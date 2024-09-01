@@ -1,0 +1,33 @@
+.productInventory{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    width: 50%;    
+    border: 2px solid #6c319c;
+    border-radius: 1.6em;
+    height: 100%;
+
+    img{
+        width: 10%;
+        height: auto;
+    }
+
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    p{
+        font-weight: bold;
+        padding: 1em;
+        border: #6c319c 2px solid;
+        border-radius: 1em;
+        background-color: white;
+
+        #downArrow{
+            transform: rotate(90deg);
+        }
+    }
+}

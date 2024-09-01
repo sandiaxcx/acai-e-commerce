@@ -6,6 +6,7 @@ import SalesChart from "../components/dashboard/SalesChart";
 import ConversionRateChart from "../components/dashboard/ConversionRateChart";
 import ReviewsChart from "../components/dashboard/ReviewsChart";
 import LatestComments from "../components/dashboard/LatestComments";
+import ProductInventory from "../components/dashboard/ProductInventory";
 
 const { products } = productData;
 
@@ -20,6 +21,9 @@ export default function Dashboard() {
         <section className="dashboardContainer">
             {selectedProduct && (
                 <section className="chartsContainer">
+                    <div className="topContainer">
+                        <ProductInventory product={selectedProduct} />
+                    </div>
                     <div className="midContainer">
                         <SalesChart product={selectedProduct} />    
                         <ConversionRateChart product={selectedProduct} />
