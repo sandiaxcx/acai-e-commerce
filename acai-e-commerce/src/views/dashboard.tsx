@@ -8,6 +8,7 @@ import ReviewsChart from "../components/dashboard/ReviewsChart";
 import LatestComments from "../components/dashboard/LatestComments";
 import ProductInventory from "../components/dashboard/ProductInventory";
 import "../styles/dashboard.scss";
+import ProductDetail from "../components/dashboard/ProductDetail";
 
 const { products } = productData;
 
@@ -31,6 +32,7 @@ export default function Dashboard() {
             {selectedProduct && (
                 <section className="chartsContainer">
                     <div className="topContainer">
+                        <ProductDetail product={selectedProduct} />
                         <ProductInventory product={selectedProduct} />
                     </div>
                     <div className="midContainer">
