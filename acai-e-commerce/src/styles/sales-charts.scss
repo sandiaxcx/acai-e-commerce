@@ -1,0 +1,6 @@
+@import '../App.scss';
+
+.salesChartContainer{
+    @include chart;
+    @include buttons;
+}
