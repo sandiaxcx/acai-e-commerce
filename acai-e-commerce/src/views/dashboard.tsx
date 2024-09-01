@@ -18,7 +18,7 @@ export default function Dashboard() {
 
     return (
         <section className="dashboardContainer">
-                        <div className="selectorContainer">
+            <div className="selectorContainer">
                 <select 
                 value={selectedProductId}
                 onChange={(e) => setSelectedProductId(Number(e.target.value))}>

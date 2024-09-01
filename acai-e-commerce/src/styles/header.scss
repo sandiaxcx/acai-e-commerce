@@ -1,3 +1,12 @@
+@keyframes flip {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
 header{
     width: 100vw;
     height: 15vh;
@@ -5,12 +14,16 @@ header{
     flex-direction: row;
     gap: 1em;
     color: #7500B9;
-    gap: 1em;
     align-items: center;
-    padding-left: 20%;
+    padding-left: 10%;
 
     img{
-        width: 4%;
+        width: 3%;
         height: 70%;
+
+        &:hover{
+            animation: flip 2s linear;
+            transform-style: preserve-3d; 
+        }
     }
 }
