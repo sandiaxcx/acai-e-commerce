@@ -1,5 +1,6 @@
 import { Chart } from "chart.js";
 import { useRef, useEffect } from "react";
+import "../../styles/reviews-chart.scss";
 
 interface Product {
     id: number;
@@ -65,10 +66,10 @@ export default function ReviewsChart({ product }: ReviewsChartProps) {
     }, [reviews]);
     
     return (
-        <div className='reviewsChartContainer'>
+        <section className='reviewsChartContainer'>
             <h2>Reviews Ratings Chart</h2>
             <canvas ref={chartRef}></canvas>
             <p>These ratings are over the course of the last 12 months.</p>
-        </div>
+        </section>
     );
 }
