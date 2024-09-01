@@ -1,0 +1,6 @@
+@import '../App.scss';
+
+.conversionRateChartContainer {
+    @include chart;
+    @include buttons;
+}
