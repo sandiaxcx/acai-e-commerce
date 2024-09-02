@@ -9,3 +9,11 @@
         font-weight: bold;
     }
 }
+
+@media (max-width: 768px) {
+    .reviewsChartContainer {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+}
