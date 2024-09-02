@@ -27,8 +27,7 @@ interface ProductInventoryProps {
 export default function ProductInventory({ product }: ProductInventoryProps) {
     return (
         <section className="productInventory">
-            <h1>Current Inventory available</h1>
-            <p>Stock: {product.stock} units<img src={DownArrow} alt="" id="downArrow"/></p>
+            <p>Stock: <span>{product.stock} units<img src={DownArrow} alt="" id="downArrow"/></span></p>
         </section>
     );
 }

@@ -42,11 +42,15 @@ export default function LatestComments({ product }: LatestCommentsProps) {
             {latestComments.map(comment => (
                 <div key={comment.id} className='individualComment'>
                     <img src="https://i.pinimg.com/originals/91/2c/e1/912ce19bfeadb1e9e2b7cee8f0a4f1bc.jpg" alt="" />
-                    <p>{comment.text}</p>
-                    <div className='review'>
-                        {convertReviewToStars(comment.review)} ({comment.review.toFixed(1)}/5)
+                    <div className="reviewContainer">
+                        <div className='review'>
+                            {convertReviewToStars(comment.review)} ({comment.review.toFixed(1)}/5)
+                            <p>{comment.date}</p>
+                        </div>
+                        <div className="textContainer">
+                            <p>{comment.text}</p>
+                        </div>
                     </div>
-                    <p>{comment.date}</p>
                 </div>
             ))}
         </section>

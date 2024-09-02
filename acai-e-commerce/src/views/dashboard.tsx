@@ -33,7 +33,6 @@ export default function Dashboard() {
                 <section className="chartsContainer">
                     <div className="topContainer">
                         <ProductDetail product={selectedProduct} />
-                        <ProductInventory product={selectedProduct} />
                     </div>
                     <div className="midContainer">
                         <SalesChart product={selectedProduct} />    

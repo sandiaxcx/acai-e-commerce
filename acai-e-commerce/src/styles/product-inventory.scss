@@ -4,14 +4,9 @@
     align-items: center;
     gap: 1em;
     width: 50%;    
-    border: 2px solid #6c319c;
     border-radius: 1.6em;
     height: 100%;
-
-    img{
-        width: 10%;
-        height: auto;
-    }
+    background-color: #f5f5f5;
 
     h1{
         display: flex;
@@ -22,12 +17,28 @@
     p{
         font-weight: bold;
         padding: 1em;
-        border: #6c319c 2px solid;
         border-radius: 1em;
-        background-color: white;
-
+        background-color: #f5f5f5;
+        font-size: 1.1em;
+        
         #downArrow{
             transform: rotate(90deg);
+            border: none;
+            width: 7%;
+        }
+        
+        span{
+            border: #6c319c 2px solid;
+            border-radius: 2em;
+            padding: 0.3em;
+            background-color: white;
+            transition: background-color 0.3s ease, transform 0.3s ease, border-color 0.3s ease;
+
+            &:hover {
+                background-color: #6c319c;
+                color: white; 
+                cursor: pointer;
         }
     }
+}
 }

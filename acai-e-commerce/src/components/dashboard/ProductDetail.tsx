@@ -1,13 +1,26 @@
 import { useState } from 'react';
 import '../../styles/product-detail.scss';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import ProductInventory from './ProductInventory';
 
 interface Product {
     id: number;
     name: string;
+    stock: number;
     image1: string;
     image2: string;
     description: string;
+    comments: {
+        id: number;
+        text: string;
+        review: number;
+        date: string;
+    }[] | {
+        id: number;
+        text: string;
+        review: number;
+        date: string;
+    }[][];
 }
 
 interface ProductDetailProps {
@@ -31,16 +44,21 @@ export default function ProductDetail({ product }: ProductDetailProps) {
     return (
         <section className="productDetail">
             <h2>{product.name}</h2>
-            <div className="slider">
-            <button onClick={handlePrevImage}>
-                <i className="fas fa-arrow-left"></i>
-                </button>
-                <img src={images[currentImage]} alt={product.name} />
-                <button onClick={handleNextImage}>
-                <i className="fas fa-arrow-right"></i>
-                </button>
+            <div className="pictureTextContainer">
+                <div className="slider">
+                    <button onClick={handlePrevImage}>
+                    <i className="fas fa-arrow-left"></i>
+                    </button>
+                    <img src={images[currentImage]} alt={product.name} />
+                    <button onClick={handleNextImage}>
+                    <i className="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+                <div className="descriptionStockContainer">
+                    <p><span> Product Description:</span> {product.description}</p>
+                    <ProductInventory product={product} />
+                </div>
             </div>
-            <p><span> Product Description:</span> {product.description}</p>
         </section>
     );
 }
