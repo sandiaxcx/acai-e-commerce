@@ -2,6 +2,7 @@
 
 .reviewsChartContainer {
     @include chart;
+    @include buttons;
 
     p{
         color: #333;
@@ -14,6 +15,9 @@
     .reviewsChartContainer {
         flex-direction: column;
         width: 100%;
+    }
+    .buttons{
+        flex-wrap: wrap;
     }
     
 }

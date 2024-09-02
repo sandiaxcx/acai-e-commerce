@@ -54,7 +54,7 @@ export default function SalesChart({ product }: SalesChartProps) {
     //generate sales data based on number of months
     const data = generateData(months);
 
-    // hook to create the chart
+    //hook to create the chart
     useEffect(() => {
         if (chartRef.current) {
             const chart = new Chart(chartRef.current, {
@@ -90,7 +90,7 @@ export default function SalesChart({ product }: SalesChartProps) {
 
     return (
         <section className="salesChartContainer">
-            <h2>{product.name} Sales Chart</h2>
+            <h2>{product.name} Sales</h2>
             <canvas ref={chartRef}></canvas>
             <div className="buttons">
                 {/* change the number of months to display data accordingly on the chart */}
