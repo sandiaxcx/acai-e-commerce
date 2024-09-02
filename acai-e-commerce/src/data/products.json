@@ -4,8 +4,8 @@
                 "id": 1,
                 "name": "iPhone Case",
                 "stock": 180,
-                "image1": "https://printify.com/dcb45202-fc53-4cae-a490-383a907627af",
-                "image2": "https://printify.com/d76cd454-5d20-4a1a-ad80-b1cc8ca87ba6",
+                "image1": "https://i.ibb.co/bH0mkK2/phone1.jpg",
+                "image2": "https://i.ibb.co/WyqtKn4/phone2.jpg",
                 "description": "Protect your phone in custom style with this tough phone case. This lightweight phone case is impact resistant thanks to its TPU lining and Polycarbonate shell. Meanwhile, the interior rubber liner adds an extra layer of protection to your phone for total peace of mind. Compatible with iPhone and Samsung smartphones. Check sizes for all available phone models.",
                 "comments": [
                         {
@@ -62,8 +62,8 @@
                 "id": 2,
                 "name": "Spiral Notebook",
                 "stock": 205,
-                "image1": "https://via.placeholder.com/150",
-                "image2": "https://via.placeholder.com/150",
+                "image1": "https://i.ibb.co/kMCGTwC/notebook1.jpg",
+                "image2": "https://i.ibb.co/vwgLCb9/notebook2.jpg",
                 "description": "This spiral notebook is perfect for jotting down notes, doodles, and more. The durable cover and thick paper ensure that your notes will last. The spiral binding allows you to easily flip through the pages, while the perforated edges make it easy to tear out pages when needed. Available in a variety of colors and designs.",
                 "comments": [
                         {
@@ -119,8 +119,8 @@
         {
                 "id": 3,
                 "name": "Tote Bag",
-                "image1": "https://via.placeholder.com/150",
-                "image2": "https://via.placeholder.com/150",
+                "image1": "https://i.ibb.co/1Z6vjWW/tote1.jpg",
+                "image2": "https://i.ibb.co/BgpTLZm/tote2.jpg",
                 "stock": 86,
                 "description": "This tote bag is perfect for carrying all your essentials in style. The durable canvas material and reinforced stitching ensure that this bag will last for years to come. The spacious interior and multiple pockets make it easy to keep your belongings organized, while the comfortable shoulder straps make it easy to carry. Available in a variety of colors and designs.",
                 "comments": [
@@ -178,8 +178,8 @@
                 "id": 4,
                 "name": "Tumbler 20 Oz",
                 "stock": 120,
-                "image1": "https://via.placeholder.com/150",
-                "image2": "https://via.placeholder.com/150",
+                "image1": "https://i.ibb.co/qrLW0z5/tumbler1.jpg",
+                "image2": "https://i.ibb.co/YcWZB79/tumbler2.jpg",
                 "description": "Stay hydrated on the go with this stylish tumbler. The durable stainless steel construction and leak-proof design make it perfect for taking with you wherever you go. The double-walled insulation keeps your drinks cold for up to 24 hours or hot for up to 12 hours, while the wide mouth design makes it easy to fill and clean. Available in a variety of colors and designs.",
                 "comments": [
                         {
@@ -236,8 +236,8 @@
                 "id": 5,
                 "name": "Mug 10 Oz",
                 "stock": 300,
-                "image1": "https://via.placeholder.com/150",
-                "image2": "https://via.placeholder.com/150",
+                "image1": "https://i.ibb.co/mz0HGrB/mug1.jpg",
+                "image2": "https://i.ibb.co/d0MnKB4/mug2.jpg",
                 "description": "Start your day off right with this stylish mug. The durable ceramic construction and comfortable handle make it perfect for enjoying your favorite hot beverages. The large 10 oz capacity is perfect for your morning coffee or tea, while the vibrant design adds a touch of style to your morning routine. Available in a variety of colors and designs.",
                 "comments": [
                         {
@@ -294,8 +294,8 @@
                 "id": 6,
                 "name": "Unisex Hooded Sweatshirt",
                 "stock": 500,
-                "image1": "https://example.com/path/to/hoodie.jpg",
-                "image2": "https://via.placeholder.com/150",
+                "image1": "https://i.ibb.co/RNWJfy6/hoodie1.jpg",
+                "image2": "https://i.ibb.co/ZLDfWHY/hoodie2.jpg",
                 "description": "Stay warm and cozy in this stylish hoodie. The heavy blend fabric and double-lined hood make it perfect for chilly days, while the ribbed cuffs and waistband ensure a comfortable fit. The spacious front pocket is perfect for keeping your hands warm or storing your essentials. Available in a variety of colors and designs.",
                 "comments": [
                         [

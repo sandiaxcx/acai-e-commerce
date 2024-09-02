@@ -4,16 +4,56 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1em;
+    // gap: 1em;
     // width: 50%;
     justify-content: center;
     border: 2px solid #6c319c;
     border-radius: 1.6em;
     @include chart;
 
+    .slider{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 1em;
+        align-items: center;
+        flex-direction: row;
+        // padding: 1em;
+    
+            button{
+                background-color: #6c319c;
+                color: white;
+                border: none;
+                border: 1px solid #6c319c;
+                border-radius: 1.6em;
+                padding: 0.5em 1em;
+                cursor: pointer;
+    
+                &:hover {
+                    background-color: #9e72ba;
+                }
+    
+                &:focus {
+                    background-color: #ffffff;
+                    border: 1px solid #6c319c;
+                    color: #6c319c;
+                    font-weight: 500;
+                }
+            }
+        }
     
     img{
-        width: 20%;
+        width: 35%;
         height: auto;
+        border: 2px solid #6c319c;
+        border-radius: 1.6em;
+    }
+
+    p{
+        width: 75%;
+
+        span{
+            font-weight: bold;
+        }
     }
 }
