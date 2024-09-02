@@ -6,7 +6,6 @@ import SalesChart from "../components/dashboard/SalesChart";
 import ConversionRateChart from "../components/dashboard/ConversionRateChart";
 import ReviewsChart from "../components/dashboard/ReviewsChart";
 import LatestComments from "../components/dashboard/LatestComments";
-import ProductInventory from "../components/dashboard/ProductInventory";
 import "../styles/dashboard.scss";
 import ProductDetail from "../components/dashboard/ProductDetail";
 

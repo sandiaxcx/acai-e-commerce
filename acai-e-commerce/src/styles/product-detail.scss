@@ -82,3 +82,15 @@
     }
 }
 }
+
+@media (max-width: 768px) {
+
+    .productDetail {
+        width: 100%;
+        .pictureTextContainer {
+            width: 100%;
+            flex-direction: column;
+        }
+    }
+    
+}

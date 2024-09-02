@@ -66,3 +66,25 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    .dashboardContainer {
+        flex-direction: column;
+
+        .chartsContainer {
+            flex-direction: column;
+
+            .topContainer{
+                flex-direction: column;
+            }
+
+            .midContainer{
+                flex-direction: column;
+            }
+
+            .botContainer{
+                flex-direction: column;
+            }
+        }
+    }
+}

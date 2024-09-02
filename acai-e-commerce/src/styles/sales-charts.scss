@@ -4,3 +4,15 @@
     @include chart;
     @include buttons;
 }
+
+
+@media (max-width: 768px) {
+    .salesChartContainer {
+        flex-direction: column;
+        width: 100%;
+
+        .buttons {
+            flex-wrap: wrap;
+        }
+    }
+}

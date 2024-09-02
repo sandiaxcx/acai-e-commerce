@@ -11,3 +11,19 @@ footer{
         width: 5%;
     }
 }
+
+@media (max-width: 768px){
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+        padding-top: 2em;
+        img{
+            width: 25%;
+        }
+        
+    }
+
+}
