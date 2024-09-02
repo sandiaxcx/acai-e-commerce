@@ -6,8 +6,10 @@
 - [Technical Competencies](#technical-competencies)
 - [Technologies](#technologies)
 - [Setup and Running Instructions](#setup-and-running-instructions)
+- [Deployment](#deployment)
 - [Future Enhancements](#future-enhancements)
 - [Challenges Faced](#challenges-faced)
+
 
 ## Project Description
 
@@ -38,22 +40,25 @@ The project focuses on:
 
 ## Setup and Running Instructions
 
-**1. Clone the repostitory:**
+**1. Clone the repostitory:**<br>
   git clone https://github.com/sandiaxcx/acai-e-commerce.git
 
-**2. Install dependencies:**
+**2. Install dependencies:**<br>
   npm install
 
-**3. Run the application:**
+**3. Run the application:**<br>
   npm run dev
 
-**4. Access the application: Open your web browser and go to http://localhost:3000.**
+**4. Access the application:** <br>
+Open your web browser and go to http://localhost:3000.
+
+## Deployment 
+[Açai E-Commerce](https://acai-e-commerce.netlify.app/) - https://acai-e-commerce.netlify.app/
 
 ## Future Enhancements
 
 In the future, I would like to implement the following features:
 
-- **Deployment:** Manage a succesful deployment of the app. Get more familiar with deployment tools and strategies..
 - **Generate Reports:** Implement functionality to generate CSV and PDF reports from the displayed data.
 - **Create Interface Files:** Move interfaces to separate files rather than placing them within each component.
 - **Create a Landing Page with Authentication:** Develop a landing page with authentication component where users with the required authorization can access the product performance dashboard. This will include full authentication and authorization functionality with login and registration.
@@ -67,4 +72,3 @@ In the future, I would like to implement the following features:
 - Large-Scale Project: This was my first time working on a project of this scale independently. While I had done CRM projects before, they had been in groups, so this was a significant learning experience, especially organizing myself and managing time.
 - Charts and Data Visualization: I had never used charts or data visualization tools before. Learning how to effectively integrate and display data using Chart.js was a new challenge.
 - Time Constraints: Due to limited time, I was unable to implement the PDF generator feature as planned. This was a key feature that I would have liked to include for a more comprehensive reporting solution.
-- Deployment: I tried deploying the application to Netlify but I was unable to successfully complete the process. This experience made me realize that I need to dive deeper into deployment strategies and tools.
