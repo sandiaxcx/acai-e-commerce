@@ -54,7 +54,7 @@ export default function ConversionRateChart({ product }: ConversionRateChartProp
                     labels: data.map((data) => data.date),
                     datasets: [
                         {
-                            label: "Sales",
+                            label: "Conversion Rate",
                             data: data.map((data) => data.conversionRate),
                             borderColor: "#6c319c",
                             borderWidth: 2,
