@@ -1,0 +1,38 @@
+@keyframes flip {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+header{
+    width: 100vw;
+    height: 13vh;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    color: #7500B9;
+    align-items: center;
+    padding-left: 10%;
+    position: fixed;
+    background-color: white;
+    top:0;
+
+    img{
+        width: 4em;
+        height: 4em;
+
+        &:hover{
+            animation: flip 2s linear;
+            transform-style: preserve-3d; 
+            cursor: pointer;
+        }
+    }
+
+    h1{
+        font-size: 2em;
+        font-weight: bold;
+    }
+}

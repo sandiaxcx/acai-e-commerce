@@ -1,0 +1,23 @@
+@import '../App.scss';
+
+.reviewsChartContainer {
+    @include chart;
+    @include buttons;
+
+    p{
+        color: #333;
+        font-size: 1.1em;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 768px) {
+    .reviewsChartContainer {
+        flex-direction: column;
+        width: 100%;
+    }
+    .buttons{
+        flex-wrap: wrap;
+    }
+    
+}

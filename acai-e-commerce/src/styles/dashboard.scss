@@ -1,0 +1,89 @@
+@import '../App.scss';
+
+.dashboardContainer{
+    padding-top: 15vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+    justify-items: center;
+
+    .selectorContainer{
+        width: 80%;
+        display: flex;
+        padding-top: 2em;
+
+        select{
+        border-radius: 1em;
+        border: 2px solid #6c319c;
+        padding: 1em;
+        cursor: pointer;
+        color: #6c319c;
+        font-size: 1.1em;
+
+            &:hover {
+                background-color: #f3e5f5; 
+            }
+        }
+
+        option{
+            border: 2px solid #6c319c;
+        }
+    }
+
+    .chartsContainer{
+        display: flex;
+        flex-direction: column;
+        gap: 3em;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+
+        .topContainer{
+            display: flex;
+            flex-direction: row;
+            gap: 1em;
+            width: 100%;
+            @include chart;
+            width: 100%;
+        }
+
+        .midContainer{
+            display: flex;
+            flex-direction: row;
+            gap: 1em;
+            width: 100%;
+        }
+
+        .botContainer{
+            display: flex;
+            flex-direction: row;
+            gap: 1em;
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .dashboardContainer {
+        flex-direction: column;
+
+        .chartsContainer {
+            flex-direction: column;
+
+            .topContainer{
+                flex-direction: column;
+            }
+
+            .midContainer{
+                flex-direction: column;
+            }
+
+            .botContainer{
+                flex-direction: column;
+            }
+        }
+    }
+}
