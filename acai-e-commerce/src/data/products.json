@@ -6,7 +6,7 @@
                 "stock": 180,
                 "image1": "https://i.ibb.co/bH0mkK2/phone1.jpg",
                 "image2": "https://i.ibb.co/WyqtKn4/phone2.jpg",
-                "description": "Protect your phone in custom style with this tough phone case. This lightweight phone case is impact resistant thanks to its TPU lining and Polycarbonate shell. Meanwhile, the interior rubber liner adds an extra layer of protection to your phone for total peace of mind. Compatible with iPhone and Samsung smartphones. Check sizes for all available phone models.",
+                "description": "Protect your phone in custom style with this tough phone case. This lightweight phone case is impact resistant thanks to its TPU lining and Polycarbonate shell. Meanwhile, the interior rubber liner adds an extra layer of protection to your phone for total peace of mind. Check sizes for all available phone models.",
                 "comments": [
                         {
                                 "id": 1,
@@ -42,19 +42,19 @@
                                 "id": 6,
                                 "text": "This case is so stylish",
                                 "review": 4.8,
-                                "date": "2024-09"
+                                "date": "2024-01"
                         },
                         {
                                 "id": 7,
                                 "text": "The phone case is too slippery",
                                 "review": 2.2,
-                                "date": "2024-10"
+                                "date": "2024-09"
                         },
                         {
                                 "id": 8,
                                 "text": "The case is too bulky",
                                 "review": 2.0,
-                                "date": "2024-11"
+                                "date": "2024-01"
                         }
                 ]
         },
@@ -100,19 +100,19 @@
                                 "id": 6,
                                 "text": "I use this notebook for all my doodles",
                                 "review": 4.7,
-                                "date": "2024-10"
+                                "date": "2024-01"
                         },
                         {
                                 "id": 7,
                                 "text": "The paper quality of this notebook is great",
                                 "review": 4.4,
-                                "date": "2024-11"
+                                "date": "2024-02"
                         },
                         {
                                 "id": 8,
                                 "text": "I highly recommend this notebook",
                                 "review": 4.9,
-                                "date": "2024-12"
+                                "date": "2024-07"
                         }
                 ]
         },
@@ -170,7 +170,7 @@
                                 "id": 8,
                                 "text": "This tote bag exceeded my expectations",
                                 "review": 4.5,
-                                "date": "2024-12"
+                                "date": "2024-03"
                         }
                 ]
         },

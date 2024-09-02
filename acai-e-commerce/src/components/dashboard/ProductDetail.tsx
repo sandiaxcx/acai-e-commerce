@@ -29,14 +29,18 @@ interface ProductDetailProps {
 
 export default function ProductDetail({ product }: ProductDetailProps) {
 
+    //state to track the current image in the slider
     const [currentImage, setCurrentImage] = useState(0);
 
+    //array of product images to be used in the slider
     const images = [product.image1, product.image2];
 
+    //move to the next image in the slider
     const handleNextImage = () => {
     setCurrentImage((prevImage) => (prevImage + 1) % images.length);
     };
 
+    //move to the previous image in the slider
     const handlePrevImage = () => {
     setCurrentImage((prevImage) => (prevImage - 1 + images.length) % images.length);
 };
@@ -47,11 +51,12 @@ export default function ProductDetail({ product }: ProductDetailProps) {
             <div className="pictureTextContainer">
                 <div className="slider">
                     <button onClick={handlePrevImage}>
-                    <i className="fas fa-arrow-left"></i>
+                        <i className="fas fa-arrow-left"></i>
                     </button>
+                    {/* display current image in the slider */}
                     <img src={images[currentImage]} alt={product.name} />
                     <button onClick={handleNextImage}>
-                    <i className="fas fa-arrow-right"></i>
+                        <i className="fas fa-arrow-right"></i>
                     </button>
                 </div>
                 <div className="descriptionStockContainer">

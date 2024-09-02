@@ -3,6 +3,7 @@ import Chart from "chart.js/auto";
 import "../../styles/sales-charts.scss";
 
 
+//define structure of Product object
 interface Product {
     id: number;
     name: string;
@@ -23,15 +24,20 @@ interface Product {
     }[][];
 }
 
+//define structure of the props that SalesChart expects (from the dashboard component)
 interface SalesChartProps {
     product: Product;
 }
 
 export default function SalesChart({ product }: SalesChartProps) {
 
+    //state that keeps track of the number of months to display in the chart
     const [months, setMonths] = useState(12);
+
+    //canvas element where the chart will be rendered
     const chartRef = useRef<HTMLCanvasElement>(null);
 
+    //generate random sales data for the specified number of months
     const generateData = (months: number) => {
         const data = [];
         const now = new Date();
@@ -45,8 +51,10 @@ export default function SalesChart({ product }: SalesChartProps) {
         return data;
     };
 
+    //generate sales data based on number of months
     const data = generateData(months);
 
+    // hook to create the chart
     useEffect(() => {
         if (chartRef.current) {
             const chart = new Chart(chartRef.current, {
@@ -72,16 +80,20 @@ export default function SalesChart({ product }: SalesChartProps) {
                 },
             });
             return () => {
+                //destroy the chart when data is unmounted or updated
                 chart.destroy();
             };
         }
-    }, [data]);
+    }, 
+    //re-run the chart when data changes
+    [data]);
 
     return (
         <section className="salesChartContainer">
             <h2>{product.name} Sales Chart</h2>
             <canvas ref={chartRef}></canvas>
             <div className="buttons">
+                {/* change the number of months to display data accordingly on the chart */}
                 <button onClick={() => setMonths(12)}>Last 12 months</button>
                 <button onClick={() => setMonths(6)}>Last 6 months</button>
                 <button onClick={() => setMonths(3)}>Last 3 months</button>
